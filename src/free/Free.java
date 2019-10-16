@@ -15,6 +15,8 @@ public class Free {
 		driver.get("https://www.giftease.com");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.quit();
+
 
 	}
 
